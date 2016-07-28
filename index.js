@@ -1,3 +1,10 @@
-/**
- * Created by tmurphy on 7/28/16.
- */
+'use strict';
+
+require('babel/register')({});
+
+var server = require('./server');
+const PORT = process.env.PORT || 3000;
+
+server.listen(PORT, function () {
+    console.log('HearthL337 Server listening on port: ', PORT);
+});

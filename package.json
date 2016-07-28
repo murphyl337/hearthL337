@@ -1,0 +1,14 @@
+{
+  "name": "hearthl337",
+  "version": "0.0.1",
+  "description": "Isomorphic Hearthstone catalogue using React/Redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Trevor Murphy",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.11.4"
+  }
+}
